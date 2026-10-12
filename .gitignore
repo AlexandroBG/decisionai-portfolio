@@ -1,0 +1,31 @@
+.venv/
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.egg-info/
+
+.env
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.DS_Store
+
+data/raw/
+
+# Local evaluation artifacts
+artifacts/
+
+# Local environment variants; retain the public example
+.env.*
+!.env.example
+
+# Local runtime output
+*.log
+*.sqlite
+*.sqlite3
